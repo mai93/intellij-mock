@@ -1,5 +1,9 @@
 # An IntelliJ plugin for [Bazel](http://bazel.build) projects
 
+> [!IMPORTANT]
+> This repository is **fully maintained by JetBrains** and supports only the Bazel plugin for IntelliJ and CLion.
+ See the [Source Code Locations](#source-code-locations) for more information.
+
 This project uses binary bundles licensed under JetBrains User Agreement (https://www.jetbrains.com/legal/docs/toolbox/user/).
 
 This is an early-access version of our Bazel plugins for IntelliJ,
@@ -8,9 +12,6 @@ Android Studio, and CLion.
 The Bazel plugin uploaded to the [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/8609-bazel) 
 regularly from the state of this repository. See the [releases](https://github.com/bazelbuild/intellij/releases) 
 tab for more information.
-
-**Please see our latest community update for Bazel IntelliJ plugin:**
-[Announcing Bazel & JetBrains co-maintenance of IntelliJ IDEA Bazel Plugin](https://blog.bazel.build/2022/07/11/Bazel-IntelliJ-Update.html#announcing-bazel-jetbrains-co-maintenance-of-intellij-idea-bazel).
 
 ## Community
 The Bazel project is hosting a Special Interest Group (SIG) for Bazel IntelliJ IDE plug-in. Details about the SIG and 
@@ -24,7 +25,7 @@ systems.
 
 ## Source Code Locations
 
-The Bazel plugins for IntelliJ and CLion are built and released from the [master branch](https://github.com/bazelbuild/intellij) of this repository. An external team of maintainers addresses IntelliJ and CLion plugin issues and pull requests. 
+The Bazel plugins for IntelliJ and CLion are built and released from the [master branch](https://github.com/bazelbuild/intellij) of this repository. JetBrains maintainers address IntelliJ and CLion plugin issues and pull requests. 
 
 The Bazel plugin for Android Studio is built and released from  [AOSP](https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/aswb/). The [google branch](https://github.com/bazelbuild/intellij/tree/google) is now deprecated.
 
